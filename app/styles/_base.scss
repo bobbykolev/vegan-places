@@ -8,7 +8,7 @@ body {
 
 .main-nav {
   .md-list-tile {
-    padding: 0 26px;
+    //padding: 0 26px;
   }
 
   .md-toolbar {
@@ -24,8 +24,20 @@ body {
     }
   }
 
+  .md-toolbar-relative {
+      margin-top: 50px;
+  }
+
+  .md-drawer-relative--mini.md-drawer-relative--mini {
+      margin-left: 55px;
+  }
+
   .md-title--toolbar {
     line-height: 50px;
+  }
+
+  .md-drawer--mini.md-drawer--mini {
+    width: 55px;
   }
 }
 
