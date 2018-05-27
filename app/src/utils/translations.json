@@ -1,0 +1,40 @@
+{
+  "en": {
+    "appTitle": "Vegan Places Bulgaria",
+    "nav": {
+      "home": "Home",
+      "map": "Map",
+      "about": "About"
+    },
+    "pages": {
+      "home": {
+        "title": "Places"
+      },
+      "map": {
+        "title": "Map"
+      },
+      "about": {
+        "title": "About"
+      }
+    }
+  },
+  "bg":{
+    "appTitle": "Веган Заведения България",
+    "nav": {
+      "home": "Начало",
+      "map": "Карта",
+      "about": "За Нас"
+    },
+    "pages": {
+      "home": {
+        "title": "Заведения"
+      },
+      "map": {
+        "title": "Карта"
+      },
+      "about": {
+        "title": "За нас"
+      }
+    }
+  }
+}

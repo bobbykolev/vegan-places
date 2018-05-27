@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.main-nav {
+  .md-list-tile {
+    padding: 0 26px;
+  }
+
+  .md-toolbar {
+    height: 50px;
+
+    .md-btn--icon {
+      height: 35px;
+      width: 35px;
+      padding: 0;
+    }
+    .md-btn--toolbar {
+      margin-top: 10px;
+    }
+  }
+
+  .md-title--toolbar {
+    line-height: 50px;
+  }
+}
+
+.inline-menu-item {
+  display: inline-block;
+  float: right;
+}
