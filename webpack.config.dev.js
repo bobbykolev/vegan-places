@@ -52,7 +52,7 @@ export default {
       }
     }),
     new WorkboxPlugin.InjectManifest({
-      swSrc: './app/sw.js',
+      swSrc: path.join('app', 'sw.js')
     })
   ],
   module: {
