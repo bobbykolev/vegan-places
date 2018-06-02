@@ -6,6 +6,18 @@ body {
   font-size: 15px;
 }
 
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.menu-btn {
+  background: url('../img/vp_logo.png') no-repeat;
+  width: 30px;
+  height: 40px;
+  margin-left: 5px;
+}
+
 .main-nav {
   .md-list-tile {
     //padding: 0 26px;
@@ -44,4 +56,8 @@ body {
 .inline-menu-item {
   display: inline-block;
   float: right;
+}
+
+.md-paper--1, .md-paper--3 {
+  transition: all 0.2s ease;
 }

@@ -6,7 +6,7 @@ import Common from "../../utils/Common";
 import NavLink from './NavLink';
 import LangControl from './LangControl';
 import Footer from './Footer';
-import Home from '../pages/Home';
+import Places from '../pages/Places/Places';
 import About from '../pages/About';
 import FourOhFour from '../pages/FourOhFour';
 import PlacesMap from "../pages/PlacesMap";
@@ -68,10 +68,12 @@ class App extends React.Component {
                     tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
                     desktopDrawerType={NavigationDrawer.DrawerTypes.PERSISTENT_MINI}
                     navItems={this.renderNavItems()}
+                    persistentIcon={<div className="menu-btn"></div>}
+                    temporaryIcon={<div className="menu-btn"></div>}
                 >
                     <Switch>
-                        <Route exact path="/" component={Home}/>
-                        <Route path="/home" component={Home}/>
+                        <Route exact path="/" component={Places}/>
+                        <Route path="/home" component={Places}/>
                         <Route path="/about" component={About}/>
                         <Route path="/map" component={PlacesMap}/>
                         <Route component={FourOhFour}/>

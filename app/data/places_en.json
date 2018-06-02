@@ -1,0 +1,852 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "rating": 5,
+      "priority": "3",
+      "pType": [
+        1
+      ],
+      "tags": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+35929834333",
+        "+359878577597"
+      ],
+      "imageUrl": "http://the-vegan.org/wp-content/uploads/2014/04/905515_10151550712942446_1020992298_o.jpg",
+      "links": [
+        "http://kring.bg/",
+        "https://www.facebook.com/KringFan"
+      ],
+      "description": "Healthy food restaurant, with vegetarian and vegan (mostly) meals. Specialties - meals with tempeh and seitan, vegan doner kebab/Shawarma, tacos, cakes, muffins and more...",
+      "latitude": "42.701085",
+      "longitude": "23.324769",
+      "name": "Kring",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "11:00–21:00",
+        "11:00–21:00",
+        "11:00–17:00",
+        "11:00–21:00",
+        "11:00–21:00",
+        "12:00–21:00",
+        ""
+      ],
+      "town": "Sofia",
+      "address": "str. 'Car Simeon' 72"
+    },
+    {
+      "id": 4,
+      "rating": 5,
+      "priority": "1",
+      "pType": [
+        1
+      ],
+      "tags": [
+        4,
+        6,
+        10
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359879588988"
+      ],
+      "imageUrl": "http://vegan-places.com/img/veggic.jpg",
+      "links": [
+        "http://www.veggic.bg",
+        "https://www.facebook.com/Veggic"
+      ],
+      "description": "",
+      "latitude": "42.144353",
+      "longitude": "24.745681",
+      "name": "Veggic",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "09:00–21:00",
+        "09:00–21:00",
+        "09:00–21:00",
+        "09:00–21:00",
+        "09:00–21:00",
+        "09:00–21:00",
+        ""
+      ],
+      "town": "Plovdiv",
+      "address": "str. 'Grozdov Pazar' 1A"
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        2,
+        4
+      ],
+      "tags": [
+        4
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+35952636131"
+      ],
+      "imageUrl": "http://vegan-places.com/img/hatori.jpg",
+      "links": [
+        "https://www.facebook.com/TheHatoriPlace"
+      ],
+      "description": "Hatori is not the typical restaurant - it's a place where you will find a special atmosphere of homemade sweets, delicious bread, bio cosmetics, interesting books and even handmade amulets.",
+      "latitude": "43.203788",
+      "longitude": "27.913765",
+      "name": "Hatori",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "10:00–19:00",
+        "10:00–19:00",
+        "10:00–19:00",
+        "10:00–19:00",
+        "10:00–19:00",
+        "10:00–19:00",
+        ""
+      ],
+      "town": "Varna",
+      "address": "str. 'Dragoman ' 9"
+    },
+    {
+      "id": 6,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1,
+        4
+      ],
+      "tags": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359899138411"
+      ],
+      "imageUrl": "http://sunmoon.bg/i/content/39/51_1_restaurant_silde_1.png",
+      "links": [
+        "http://sunmoon.bg/restaurant",
+        "https://www.facebook.com/SunMonnsmall5corners"
+      ],
+      "description": "At SunMoon you can try traditioanal dishes from the Arabian, Indian, Moroccan and Bulgarian cuisine  prepared only with high quality local, organic and bio products. This is the place where you will find a great variety of breads - all fresh baked and delicious. The food is healthy, balanced and tasty, the atmosphere is very friendly and the place is always full in the peak hours so it is better to call for a reservation.",
+      "latitude": "42.689611",
+      "longitude": "23.325422",
+      "name": "Sunmoon 2",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–21:00"
+      ],
+      "town": "Sofia",
+      "address": "str. '6-ti Septemvri' 39"
+    },
+    {
+      "id": 7,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1,
+        4
+      ],
+      "tags": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359 897 094139"
+      ],
+      "imageUrl": "http://vegan-places.com/img/sunmoon2.jpg",
+      "links": [
+        "http://sunmoon.bg/restaurant",
+        "https://www.facebook.com/SMGladston"
+      ],
+      "description": "At SunMoon you can try traditioanal dishes from the Arabian, Indian, Moroccan and Bulgarian cuisine  prepared only with high quality local, organic and bio products. This is the place where you will find a great variety of breads - all fresh baked and delicious. The food is healthy, balanced and tasty, the atmosphere is very friendly and the place is always full in the peak hours so it is better to call for a reservation.",
+      "latitude": "42.691899",
+      "longitude": "23.317209",
+      "name": "Sunmoon",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–22:00",
+        "08:30–21:00"
+      ],
+      "town": "Sofia",
+      "address": "str. 'W Gladston' 18B"
+    },
+    {
+      "id": 8,
+      "rating": 5,
+      "priority": "1",
+      "pType": [
+        1
+      ],
+      "tags": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359876440003"
+      ],
+      "imageUrl": "http://vegan-places.com/img/soul_kitchen.jpg",
+      "links": [
+        "http://www.soulkitchen.bg/",
+        "https://www.facebook.com/soulkitchensofia"
+      ],
+      "description": "Soul kitchen offers interesting and original meals and desserts in a unique atmosphere. You can enjoy the beatifully arranged and delicious food inside or outdoors in the garden. Salads, dips, pizzas and pancakes are just some of the temptating items on the menu. A must visit place in Sofia.",
+      "latitude": "42.684362",
+      "longitude": "23.327338",
+      "name": "Soul Kitchen",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "11:00–24:00",
+        "11:00–24:00",
+        "11:00–24:00",
+        "11:00–24:00",
+        "11:00–24:00",
+        "11:00–24:00",
+        "11:00–24:00"
+      ],
+      "town": "Sofia",
+      "address": "str. 'Kokiche' 13"
+    },
+    {
+      "id": 9,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1
+      ],
+      "tags": [
+        4,
+        6,
+        10
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+35929808163"
+      ],
+      "imageUrl": "http://vegan-places.com/img/dh.jpg",
+      "links": [
+        "https://www.facebook.com/pages/DreamHouse/148103941903740"
+      ],
+      "description": "At Dream House you will find a variety of tasty vegetarian and vegan meals. Every Saturday is raw food day and every Sunday guests can taste multiple dishes of various foods on a Swedish table.",
+      "latitude": "42.694763",
+      "longitude": "23.321235",
+      "name": "Dream House",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "11:00–22:00",
+        "11:00–22:00",
+        "11:00–22:00",
+        "11:00–22:00",
+        "11:00–22:00",
+        "11:00–22:00",
+        "12:00–18:00"
+      ],
+      "town": "Sofia",
+      "address": "str. 'Alabin' 50A (second floor)"
+    },
+    {
+      "id": 12,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1
+      ],
+      "tags": [
+        10
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359882108108"
+      ],
+      "imageUrl": "http://www.vedahouse.bg/images/stories/Veda_Sofia4/P1210069.JPG",
+      "links": [
+        "http://www.vedahouse.bg"
+      ],
+      "description": "Veda House is a wisdom and tea house - a favorite place to meet friends or just enjoy some time for yourself. Countless teas from around the world served in unique handmade tea-pots and cups are waiting for you to try them. Tasty vegetarian and vegan dishes and desserts complete the atmosphere of peace and harmony. Once you enter this beautiful tea world you will want to come back again and again.",
+      "latitude": "42.692310",
+      "longitude": "23.314970",
+      "name": "Veda House",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "10:30–23:00",
+        "10:30–23:00",
+        "10:30–23:00",
+        "10:30–23:00",
+        "10:30–23:00",
+        "10:30–23:00",
+        "10:30–23:00"
+      ],
+      "town": "Sofia",
+      "address": "str. 'Uilyam Gladston' 2"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "priority": "1",
+      "pType": [
+        1,
+        3
+      ],
+      "tags": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        11,
+        12
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359884583555"
+      ],
+      "imageUrl": "http://vegan-places.com/img/sandwich.png",
+      "links": [
+        "http://lovinghut.bg",
+        "https://www.facebook.com/lovinghutsofia"
+      ],
+      "description": "Loving Hut is the biggest international vegan restaurant chain in the world...",
+      "latitude": "42.697967",
+      "longitude": "23.330039",
+      "name": "Loving Hut",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "11:00–17:00",
+        "11:00–17:00"
+      ],
+      "town": "Sofia",
+      "address": "str. 'G. Rakovski' 113"
+    },
+    {
+      "id": 16,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1
+      ],
+      "tags": [
+        4,
+        6
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359885722761"
+      ],
+      "imageUrl": "http://vegan-places.com/img/v-v-c.jpg",
+      "links": [
+        "https://www.facebook.com/veganvarna"
+      ],
+      "description": "Vegan and vegetarian food made entirely of plant products. Most of the meals are consistent with the requirements of vegans which exclude from their diet not only meat but also fish, seafood, eggs and dairy, even honey...",
+      "latitude": "43.220076",
+      "longitude": "27.889558",
+      "name": "Vegan & Vegetarian Culinary",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "10:00–21:00",
+        "10:00–21:00",
+        "10:00–21:00",
+        "10:00–21:00",
+        "10:00–21:00",
+        "10:00–21:00",
+        "10:00–21:00"
+      ],
+      "town": "Varna",
+      "address": "'Mall Varna', fl. minus 2, str. 'Vladislav Varnenchik' 186"
+    },
+    {
+      "id": 17,
+      "rating": 5,
+      "priority": "1",
+      "pType": [
+        1
+      ],
+      "tags": [
+        4,
+        6,
+        10
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359885722761"
+      ],
+      "imageUrl": "http://vegan-places.com/img/country-life.jpg",
+      "links": [
+        "https://www.facebook.com/Country-Life-1584102191868078/"
+      ],
+      "description": "Vegan food.",
+      "latitude": "42.150320",
+      "longitude": "24.744450",
+      "name": "Country Life",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–18:00",
+        "",
+        ""
+      ],
+      "town": "Plovdiv",
+      "address": "str. 'Opulchenska' 24"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "priority": "3",
+      "pType": [
+        2,
+        3,
+        5
+      ],
+      "tags": [
+        1,
+        3,
+        4,
+        11,
+        12
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359879516603"
+      ],
+      "imageUrl": "http://www.zoya.bg/custom-images/logo-new-zoya-smesen.png",
+      "links": [
+        "http://www.zoya.bg",
+        "https://www.facebook.com/www.zoya.bg"
+      ],
+      "description": "Bio store with wide variety of vegan cakes.",
+      "latitude": "42.689809",
+      "longitude": "23.325190",
+      "name": "Zoya ",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "09:00–21:00",
+        "09:00–21:00",
+        "09:00–21:00",
+        "09:00–21:00",
+        "09:00–21:00",
+        "10:00–21:00",
+        "12:00–20:00"
+      ],
+      "town": "Sofia",
+      "address": "str. 'Neofit Rilski' 63"
+    },
+    {
+      "id": 20,
+      "rating": 5,
+      "priority": "2",
+      "pType": [
+        2,
+        3
+      ],
+      "tags": [
+        1,
+        2,
+        3,
+        4,
+        11
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359899935991"
+      ],
+      "imageUrl": "http://vegan-places.com/img/rawlly.jpg",
+      "links": [
+        "https://www.facebook.com/Rawlly-676528332451019"
+      ],
+      "description": "'Rawlly' - raw, fresh, delicious yummies. Healthy juices.",
+      "latitude": "42.681747",
+      "longitude": "23.322375",
+      "name": "Rawlly",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "09:00–19:00",
+        "09:00–19:00",
+        "09:00–19:00",
+        "09:00–19:00",
+        "09:00–19:00",
+        "10:00–18:00",
+        ""
+      ],
+      "town": "Sofia",
+      "address": "str. 'Biser' 16"
+    },
+    {
+      "id": 23,
+      "rating": 5,
+      "priority": "1",
+      "pType": [],
+      "tags": [
+        3
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359899427476"
+      ],
+      "imageUrl": "http://vegan-places.com/img/veggi-fresh.jpg",
+      "links": [
+        ""
+      ],
+      "description": "Takeaway falafel.",
+      "latitude": "43.208011",
+      "longitude": "27.922546",
+      "name": "Veggi Fresh",
+      "open": true,
+      "workingTime": [
+        "10:00–20:00",
+        "10:00–20:00",
+        "10:00–20:00",
+        "10:00–20:00",
+        "10:00–20:00",
+        "11:00–19:00",
+        ""
+      ],
+      "town": "Varna",
+      "address": "str. 'Knyaz Boris I' 71"
+    },
+    {
+      "id": 28,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1,
+        2,
+        4
+      ],
+      "tags": [
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359878950922"
+      ],
+      "imageUrl": "https://static.wixstatic.com/media/b4bae6_d8af23ba9c504bc98716bab6d16b92ec.jpg/v1/fill/w_700,h_467,al_c,q_90/b4bae6_d8af23ba9c504bc98716bab6d16b92ec.jpg",
+      "links": [
+        "http://www.anandabakery.com/",
+        "https://www.facebook.com/AnandaBakery"
+      ],
+      "description": "Ananda means bliss. This is what we do - we make different delicious and healthy meals and desserts!",
+      "latitude": "42.687081",
+      "longitude": "23.303562",
+      "name": "Ananda Bakery",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "09:00–19:00",
+        "09:00–19:00",
+        "09:00–19:00",
+        "09:00–19:00",
+        "09:00–19:00",
+        "10:00–18:00",
+        "10:00–18:00"
+      ],
+      "town": "Sofia",
+      "address": "str. 'Feliks Kanits' 14-16"
+    },
+    {
+      "id": 29,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1,
+        5
+      ],
+      "tags": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359877883208"
+      ],
+      "imageUrl": "http://vegan-places.com/img/angels.jpg",
+      "links": [
+        "http://bistroangels.com",
+        "https://www.facebook.com/AngelsFoodVarna/"
+      ],
+      "description": "Healthy and fresh vegan and vegetarian food. Also, there's a hall for yoga and seminars.",
+      "latitude": "43.210090",
+      "longitude": "27.924485",
+      "name": "Angel's",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "10:30–20:00",
+        "10:30–20:00",
+        "10:30–20:00",
+        "10:30–20:00",
+        "10:30–20:00",
+        "10:30–20:00",
+        ""
+      ],
+      "town": "Varna",
+      "address": "str. Liuben Karavelov 26"
+    },
+    {
+      "id": 30,
+      "rating": 5,
+      "priority": "1",
+      "pType": [
+        1,
+        3,
+        5
+      ],
+      "tags": [
+        2,
+        3,
+        4,
+        6,
+        9,
+        10
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359879655777"
+      ],
+      "imageUrl": "http://vegan-places.com/img/thegreenlemon.jpg",
+      "links": [
+        "https://www.facebook.com/thegreenlemon.bg/"
+      ],
+      "description": "Fast-food vegan restaurant.",
+      "latitude": "42.155858",
+      "longitude": "24.743964",
+      "name": "The Green Lemon",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        "08:00–20:00",
+        ""
+      ],
+      "town": "Plovdiv",
+      "address": "str. Neofit Rilski 11"
+    },
+    {
+      "id": 31,
+      "rating": 5,
+      "priority": "4",
+      "pType": [
+        1,
+        4
+      ],
+      "tags": [
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359887851854"
+      ],
+      "imageUrl": "http://vegan-places.com/img/sun-moon-iztok.jpg",
+      "links": [
+        "http://sunmoon.bg/restaurant",
+        "https://www.facebook.com/sunmooniztok/"
+      ],
+      "description": "Vegetarian and vegan restaurant - bakery.",
+      "latitude": "42.669185",
+      "longitude": "23.353317",
+      "name": "Sunmoon - Iztok",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "08:30–19:30",
+        "08:30–19:30",
+        "08:30–19:30",
+        "08:30–19:30",
+        "08:30–19:30",
+        "09:00–18:00",
+        ""
+      ],
+      "town": "Sofia",
+      "address": "Iztok, str. Samokov 28B"
+    },
+    {
+      "id": 32,
+      "priority": "4",
+      "pType": [
+        1
+      ],
+      "tags": [
+        2,
+        3,
+        4,
+        6,
+        10,
+        11
+      ],
+      "vType": "-vegetarian-",
+      "phone": [
+        "+359883777156"
+      ],
+      "imageUrl": "http://vegan-places.com/img/vege-joy.jpg",
+      "links": [
+        "https://www.facebook.com/vegejoy/"
+      ],
+      "description": "A cosy, family-run restaurant where you can have a bite only 150 meters away from the city's main shopping street. Fresh salads, appetizers, main courses, daily meals (soups, grill sandwiches, vegan cakes and sweets, etc.), a choice of tea and cold drinks including home-made ginger lemonade. Most of the dishes are vegan but for part of them you may choose whether to have the vegetarian or vegan version e.g. choose a salad with parmigiano or vegan cheese.",
+      "latitude": "43.205975",
+      "longitude": "27.917497",
+      "name": "Vege Joy",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "",
+        "12:00–22:30",
+        "12:00–22:30",
+        "12:00–22:30",
+        "12:00–22:30",
+        "12:00–22:30",
+        "12:00–22:30"
+      ],
+      "town": "Varna",
+      "address": "str. Marko Balabanov 25"
+    },
+    {
+      "id": 33,
+      "priority": "1",
+      "pType": [
+        1,
+        3
+      ],
+      "tags": [
+        3,
+        6,
+        10
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        ""
+      ],
+      "imageUrl": "http://vegan-places.com/img/up.jpg",
+      "links": [
+        "https://www.facebook.com/pg/urbanpicnicCafe"
+      ],
+      "description": "",
+      "latitude": "41.392728",
+      "longitude": "23.207413",
+      "name": "Urban Picnic",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "08:00–18:00",
+        "08:00–18:00",
+        "08:00–18:00",
+        "08:00–18:00",
+        "08:00–18:00",
+        "09:00–14:00",
+        ""
+      ],
+      "town": "Petrich",
+      "address": "str. Gotse Delchev 7"
+    },
+    {
+      "id": 34,
+      "priority": "1",
+      "pType": [
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        4,
+        7,
+        8,
+        9,
+        12
+      ],
+      "vType": "-vegan-",
+      "phone": [
+        "+359883442613"
+      ],
+      "imageUrl": "http://vegan-places.com/img/hzl.jpg",
+      "links": [
+        "https://www.facebook.com/pg/hranazalubov"
+      ],
+      "description": "'Food for love' is a cozy place in the centre of Varna, that serves vegan and raw food. Every day we offer a variety of savory and sweet food, prepared with seasonal and fresh products. Follow our page (facebook) to get information for the daily menus. For questions and orders you can call us at 0883 44 26 13 or send us a message in Facebook.",
+      "latitude": "43.205489",
+      "longitude": "27.914827",
+      "name": "Food for love",
+      "warning": "",
+      "open": true,
+      "workingTime": [
+        "10:00–19:00",
+        "10:00–19:00",
+        "10:00–19:00",
+        "10:00–19:00",
+        "10:00–19:00",
+        "",
+        ""
+      ],
+      "town": "Varna",
+      "address": "str. Shipka 25"
+    }
+  ]
+}

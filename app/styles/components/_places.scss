@@ -1,0 +1,43 @@
+.places-items {
+    width: calc(100vw - 55px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.place-item {
+    flex: 1;
+    display: flex;
+    min-width: 380px;
+    max-width: 380px;
+    margin: 8px;
+    height: 100px;
+
+    &--details {
+        flex: 1;
+        padding: 8px;
+    }
+}
+
+.item-with-icon {
+    display: flex;
+    align-items: center;
+
+    i {
+        font-size: 22px;
+    }
+}
+
+.place-title {
+    color: $terinary;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.place-thumb {
+    height: 100px;
+    width: 133px;
+    cursor: pointer;
+}
