@@ -1,7 +1,6 @@
 import React from 'react';
 import {PropTypes} from 'prop-types';
 import {Paper} from 'react-md/lib/Papers';
-import Button from 'react-md/lib/Buttons/Button';
 import Common from "../../../utils/Common";
 
 class PlaceItem extends React.Component {
@@ -15,7 +14,6 @@ class PlaceItem extends React.Component {
         this.onMouseOverFn = this.onMouseOverFn.bind(this);
         this.onMouseLeaveFn = this.onMouseLeaveFn.bind(this);
         this.openDetails = this.openDetails.bind(this);
-        this.directionsLink = 'https://www.google.com/maps/dir/?api=1&destination=';
     }
 
     onMouseOverFn() {
@@ -40,8 +38,7 @@ class PlaceItem extends React.Component {
         return (
             <Paper
                 zDepth={this.state.depth}
-                className="place-item"
-            >
+                className="place-item">
                 <div className="place-item--header">
                     <div className="place-thumb" style={{'background': 'url("' + item.imageUrl + '") center center / cover'}}
                          onMouseOver={this.onMouseOverFn}
@@ -64,13 +61,16 @@ class PlaceItem extends React.Component {
                     <div>
                         <div className={item.isOpen ? 'green':'disabled'}>{item.isOpen ? Common.getTranslation('common.openText'): Common.getTranslation('common.closeText')}</div>
                     </div>
-                    <a target="_blank" title="Directions" href={this.directionsLink + '' + item.latitude + ',' + item.longitude}><i className="material-icons">directions</i></a>
+                    <a target="_blank" title="Directions" href={Common.getDirectionsLink(item)}><i className="material-icons">directions</i></a>
                 </div>
             </Paper>
         );
     }
 }
 
-PlaceItem.propTypes = {};
+PlaceItem.propTypes = {
+    openDetails: PropTypes.func,
+    item: PropTypes.object
+};
 
 export default PlaceItem;

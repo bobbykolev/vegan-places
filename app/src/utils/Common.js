@@ -13,6 +13,7 @@ import translations from './translations';
 })();
 
 const TIME_ZONE_GAP = (-1*(new Date().getTimezoneOffset()))/60;
+const DIRICTIONS_LINK = 'https://www.google.com/maps/dir/?api=1&destination=';
 
 export default class Common {
     static getChangeLang(lang) {
@@ -42,6 +43,10 @@ export default class Common {
         }
 
         return result;
+    }
+
+    static getDirectionsLink(item) {
+        return item && (DIRICTIONS_LINK + '' + item.latitude + ',' + item.longitude) || DIRICTIONS_LINK;
     }
 
     static setOpenCloseMarker(data) {

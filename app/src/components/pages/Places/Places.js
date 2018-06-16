@@ -67,7 +67,10 @@ class Places extends React.Component {
     }
 }
 
-Places.propTypes = {};
+Places.propTypes = {
+    actions: PropTypes.object,
+    places: PropTypes.array
+};
 
 function mapStateToProps(state) {
     return {
