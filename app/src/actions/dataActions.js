@@ -1,5 +1,5 @@
 import RestService from '../services/RestService';
-import {PLACES_SUCCESS, TAGS_SUCCESS, TYPES_SUCCESS} from "../constants/actoinTypes";
+import {PLACES_SUCCESS, TAGS_SUCCESS, TYPES_SUCCESS, PLACES_UPDATED_MARKERS_SUCCESS} from "../constants/actoinTypes";
 import * as errorHandler from './errorHandler';
 
 export function getPlaces() {
@@ -13,6 +13,15 @@ export function getPlaces() {
             }
         }).catch(function(e) {
             errorHandler.handleError(dispatch, e);
+        });
+    };
+}
+
+export function updatePlacesMarkers() {
+    return function(dispatch) {
+        dispatch({
+            type: PLACES_UPDATED_MARKERS_SUCCESS,
+            data: null
         });
     };
 }

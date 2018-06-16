@@ -5,10 +5,11 @@ $md-primary-color: #286090;
 $md-secondary-color: #C8E600;
 
 @include react-md-everything;
-@import './_base.scss';
 @import './_colors.scss';
+@import './_base.scss';
 @import './components/_places.scss';
 
 
 
+@import './_animations.scss';
 @import './_media.scss';

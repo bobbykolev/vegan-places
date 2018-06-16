@@ -61,3 +61,36 @@ a {
 .md-paper--1, .md-paper--3 {
   transition: all 0.2s ease;
 }
+
+.veg-icon {
+  background: url('../img/veg-sprite.png');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 64px 16px;
+}
+
+.veg-icon-1 {
+  background-position: 0 0;
+}
+
+.veg-icon-2 {
+  background-position: -16px 0;
+}
+
+.veg-icon-3 {
+  background-position: -32px 0;
+}
+
+.veg-icon-4 {
+  background-position: -48px 0;
+}
+
+.green {
+ color: $green;
+}
+
+.disabled {
+  color: grey;
+  opacity: 0.5;
+}

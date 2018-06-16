@@ -16,6 +16,10 @@
       "about": {
         "title": "About"
       }
+    },
+    "common": {
+      "openText": "Open",
+      "closeText": "Closed"
     }
   },
   "bg":{
@@ -35,6 +39,10 @@
       "about": {
         "title": "За нас"
       }
+    },
+    "common": {
+      "openText": "Отворено",
+      "closeText": "Затворено"
     }
   }
 }
