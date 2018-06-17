@@ -4,6 +4,27 @@
     }
 }
 
+@media screen and (max-width: 1025px) {
+    .menu-btn {
+        margin-left: 1px;
+        margin-top: -2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-btn {
+        margin-left: 8px;
+        margin-top: -3px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .menu-btn {
+        margin-left: 12px;
+        margin-top: -3px;
+    }
+}
+
 @media screen and (max-width: 470px) {
     .places-items {
         width: 100vw;

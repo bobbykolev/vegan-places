@@ -59,7 +59,7 @@ class PlaceItem extends React.Component {
                 </div>
                 <div className="place-item--footer">
                     <div>
-                        <div className={item.isOpen ? 'green':'disabled'}>{item.isOpen ? Common.getTranslation('common.openText'): Common.getTranslation('common.closeText')}</div>
+                        <div className={item.isOpen ? 'open-label':'close-label'}>{item.isOpen ? Common.getTranslation('common.openText'): Common.getTranslation('common.closeText')}</div>
                     </div>
                     <a target="_blank" title="Directions" href={Common.getDirectionsLink(item)}><i className="material-icons">directions</i></a>
                 </div>

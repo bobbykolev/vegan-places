@@ -63,7 +63,7 @@ class App extends React.Component {
                 <NavigationDrawer
                     drawerTitle=" "
                     className={'main-nav'}
-                    toolbarTitle={Common.getTranslation('appTitle')}
+                    toolbarTitle={''}
                     mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
                     tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
                     desktopDrawerType={NavigationDrawer.DrawerTypes.PERSISTENT_MINI}

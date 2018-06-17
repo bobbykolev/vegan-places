@@ -15,7 +15,8 @@ a {
   background: url('../img/vp_logo.png') no-repeat;
   width: 30px;
   height: 40px;
-  margin-left: 5px;
+  margin-left: 0px;
+  margin-top: -2px;
 }
 
 .main-nav {
@@ -23,8 +24,13 @@ a {
     //padding: 0 26px;
   }
 
+  .md-toolbar.md-divider-border--bottom {
+    border: none;
+  }
+
   .md-toolbar {
     height: 50px;
+    width: 56px;
 
     .md-btn--icon {
       height: 35px;
@@ -36,12 +42,24 @@ a {
     }
   }
 
+  .md-background--primary {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.6);
+    box-shadow: none;
+  }
+
   .md-toolbar-relative {
-      margin-top: 50px;
+      margin-top: 0px;
   }
 
   .md-drawer-relative--mini.md-drawer-relative--mini {
       margin-left: 55px;
+  }
+
+  .md-drawer--mini.md-drawer--mini {
+    padding-top: 50px;
   }
 
   .md-title--toolbar {

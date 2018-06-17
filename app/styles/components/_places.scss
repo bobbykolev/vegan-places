@@ -60,18 +60,23 @@ $cardWidth: 200px;
       &--footer {
         height: 40px;
         display: flex;
+        align-items: center;
         border-top: 1px solid rgba(0,0,0,0.1);
 
         > div {
             flex: 1;
 
             > div {
-                padding: 8px;
+                //padding: 8px;
+                display: inline-block;
+                margin-left: 5px;
+                padding: 1px 3px;
+                border-radius: 1px;
             }
         }
 
         > a {
-            padding: 8px;
+            padding: 8px 8px 2px 8px;
         }
       }
 }
@@ -90,4 +95,16 @@ $cardWidth: 200px;
     width: $cardWidth;
     //border-radius: 50%;
     cursor: pointer;
+}
+
+.open-label {
+    background: $green;
+    color: white;
+    font-size: 12px;
+}
+
+.close-label {
+    background: #ccc;
+    color: white;
+    font-size: 12px;
 }
