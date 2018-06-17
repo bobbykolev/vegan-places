@@ -19,7 +19,11 @@
     },
     "common": {
       "openText": "Open",
-      "closeText": "Closed"
+      "closeText": "Closed",
+      "defaultAll": "All",
+      "townLabel": "Town",
+      "vTypeLabel": "V Type",
+      "filterSearchLabel": "Search"
     }
   },
   "bg":{
@@ -42,7 +46,11 @@
     },
     "common": {
       "openText": "Отворено",
-      "closeText": "Затворено"
+      "closeText": "Затворено",
+      "defaultAll": "Всички",
+      "townLabel": "Град",
+      "vTypeLabel": "'В' Тип",
+      "filterSearchLabel": "Търсене"
     }
   }
 }

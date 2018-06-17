@@ -9,6 +9,11 @@
         margin-left: 1px;
         margin-top: -2px;
     }
+
+    .main-filters {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -26,9 +31,9 @@
 }
 
 @media screen and (max-width: 470px) {
-    .places-items {
+    .page-wrapper {
         width: 100vw;
-        padding: 8px;
+        //padding: 8px;
     }
 
     .place-item {
@@ -38,5 +43,9 @@
 
     .place-thumb {
         width: 100%;
+    }
+
+    .main-filters {
+        margin-top: 15px;
     }
 }

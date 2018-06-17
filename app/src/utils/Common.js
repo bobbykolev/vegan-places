@@ -58,7 +58,7 @@ export default class Common {
             startTime,
             endTime;
 
-        if (currentDay == 0) {
+        if (currentDay === 0) {
             currentDay = 7;
         }
 
@@ -74,9 +74,9 @@ export default class Common {
                     //hours '-2': data is with GMT -2 (Sofia...)
                     if ((currentHour > parseInt(startTime[0]) - TIME_ZONE_GAP) && (currentHour < parseInt(endTime[0]) - TIME_ZONE_GAP)) {
                         data[i].isOpen = true;
-                    } else if ((currentHour == parseInt(startTime[0]) - TIME_ZONE_GAP)  && (currentMinutes > parseInt(startTime[1]))) {
+                    } else if ((currentHour === parseInt(startTime[0]) - TIME_ZONE_GAP)  && (currentMinutes > parseInt(startTime[1]))) {
                         data[i].isOpen = true;
-                    }  else if ((currentHour == parseInt(endTime[0]) - TIME_ZONE_GAP)  && (currentMinutes < parseInt(endTime[1]))) {
+                    }  else if ((currentHour === parseInt(endTime[0]) - TIME_ZONE_GAP)  && (currentMinutes < parseInt(endTime[1]))) {
                         data[i].isOpen = true;
                     } else {
                         data[i].isOpen = false;
@@ -90,5 +90,43 @@ export default class Common {
         }
 
         return data;
+    }
+
+    static getUnique(arr) {
+        let u = {}, uniqueArray = [];
+
+        for(let i = 0, l = arr.length; i < l; ++i){
+            if(u.hasOwnProperty(arr[i])) {
+                continue;
+            }
+
+            uniqueArray.push(arr[i]);
+            u[arr[i]] = 1;
+        }
+
+        return uniqueArray;
+    }
+
+    static getUniqueProps(prop, data) {
+        let arr = [];
+
+        for (let i = 0; i < data.length; i++) {
+            let t = data[i][prop].split(',');
+            for (let j = 0; j < t.length; j++) {
+                arr.push(t[j]);
+            }
+        }
+
+        return this.getUnique(arr);
+    }
+
+    static sortArray(prop, data) {
+        return data.sort((a, b)=>{
+            if (a[prop] < b[prop])
+                return -1;
+            if (a[prop] > b[prop])
+                return 1;
+            return 0;
+        });
     }
 }

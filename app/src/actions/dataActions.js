@@ -1,5 +1,5 @@
 import RestService from '../services/RestService';
-import {PLACES_SUCCESS, TAGS_SUCCESS, TYPES_SUCCESS, PLACES_UPDATED_MARKERS_SUCCESS} from "../constants/actoinTypes";
+import {PLACES_SUCCESS, TAGS_SUCCESS, TYPES_SUCCESS, PLACES_UPDATED_MARKERS_SUCCESS, PLACES_UPDATED_SUCCESS} from "../constants/actoinTypes";
 import * as errorHandler from './errorHandler';
 
 export function getPlaces() {
@@ -22,6 +22,15 @@ export function updatePlacesMarkers() {
         dispatch({
             type: PLACES_UPDATED_MARKERS_SUCCESS,
             data: null
+        });
+    };
+}
+
+export function updatePlaces(filters) {
+    return function(dispatch) {
+        dispatch({
+            type: PLACES_UPDATED_SUCCESS,
+            data: filters
         });
     };
 }

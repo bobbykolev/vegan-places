@@ -1,15 +1,19 @@
 .place-item-animated-enter {
-    opacity: 0.01;
-    transform: translate3d(-1000%, 0, 0);
+    opacity: 0;
+    //transform: translate3d(-800%, 0, 0);
 }
 .place-item-animated-enter-active {
-    transform: translate3d(0, 0, 0);
+    //transform: translate3d(0, 0, 0);
     opacity: 1;
-    transition: transform 0.8s ease, opacity 0.8s ease-in;
+    //transition: all 0.3s linear;
 }
 
 .place-item-animated-exit-active {
-    transform: translate3d(-1000%, 0, 0);
+    //transform: translate3d(-800%, 0, 0);
     opacity: 0.01;
-    transition: transform 0.8s ease, opacity 0.3s ease-out;
+    //transition: all 0.2s linear;
+}
+
+.place-item-animated-exit {
+    opacity: 0;
 }
