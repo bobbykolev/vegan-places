@@ -13,7 +13,6 @@ class PlaceItem extends React.Component {
 
         this.onMouseOverFn = this.onMouseOverFn.bind(this);
         this.onMouseLeaveFn = this.onMouseLeaveFn.bind(this);
-        this.openDetails = this.openDetails.bind(this);
     }
 
     onMouseOverFn() {
@@ -28,8 +27,8 @@ class PlaceItem extends React.Component {
         });
     }
 
-    openDetails() {
-        this.props.openDetails();
+    openDetails(item) {
+        this.props.openDetails(item);
     }
 
     render() {
@@ -43,7 +42,7 @@ class PlaceItem extends React.Component {
                     <div className="place-thumb" style={{'background': 'url("' + item.imageUrl + '") center center / cover'}}
                          onMouseOver={this.onMouseOverFn}
                          onMouseLeave={this.onMouseLeaveFn}
-                         onClick={this.openDetails}/>
+                         onClick={this.openDetails.bind(this, item)}/>
                 </div>
                 <div className="place-item--details">
                     <div className="place-item--title" onMouseOver={this.onMouseOverFn} onMouseLeave={this.onMouseLeaveFn}>

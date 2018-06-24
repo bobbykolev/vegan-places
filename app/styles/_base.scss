@@ -112,3 +112,17 @@ a {
   color: grey;
   opacity: 0.5;
 }
+
+
+
+/*modal fix*/
+.md-dialog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .md-dialog--centered {
+    transform: none;
+    left: unset;
+    top: unset!important;
+  }
+}

@@ -1,0 +1,47 @@
+.details-modal {
+    background: rgba(0, 0, 0, 0.2);
+
+    > div {
+        width: 600px;
+        max-width: 100%;
+
+        > section {
+            padding: 0;
+        }
+    }
+}
+
+.place-main-img {
+    width: 100%;
+    height: 100px;
+}
+
+.place-details {
+    header {
+        position: relative;
+    }
+}
+
+.circle-rating {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    right: 20px;
+    top: 75px;
+    border-radius: 50px;
+    background: $ratingColor1;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.4);
+}
+
+$colors: $ratingColor1, $ratingColor2, $ratingColor3, $ratingColor4;
+
+@for $i from 1 through 4 {
+    .rating-color-#{$i} {
+        background: nth($colors, $i);
+    }
+}

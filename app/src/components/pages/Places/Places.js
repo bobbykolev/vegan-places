@@ -3,11 +3,13 @@ import {PropTypes} from 'prop-types';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as actions from '../../../actions';
+import Dialog from 'react-md/lib/Dialogs';
 import TransitionGroup from 'react-transition-group/TransitionGroup';
 import CSSTransition from 'react-transition-group/CSSTransition';
 import Common from "../../../utils/Common";
 import PlaceItem from "./PlaceItem";
 import PlacesFilters from "../../PlacesFilters";
+import PlaceDetails from "./PlaceDetails";
 
 class Places extends React.Component {
     constructor(props, context) {
@@ -19,7 +21,9 @@ class Places extends React.Component {
             vTypes: [],
             searchStr: '',
             selectedVType: this.getDefaultAll(),
-            selectedTown: this.getDefaultAll()
+            selectedTown: this.getDefaultAll(),
+            selectedPlace: {},
+            visibleDetails: false
         };
 
         this.page = 'pages.home.';
@@ -28,6 +32,7 @@ class Places extends React.Component {
             exit: 0
         };
         this.updateResults = this.updateResults.bind(this);
+        this.closeDetails = this.closeDetails.bind(this);
     }
 
     componentWillMount() {
@@ -159,8 +164,12 @@ class Places extends React.Component {
         return this.props.actions.updatePlacesMarkers();
     }
 
-    openDetails() {
+    openDetails(item) {
+        this.setState({visibleDetails: true, selectedPlace: item});
+    }
 
+    closeDetails() {
+        this.setState({visibleDetails: false, selectedPlace: {}});
     }
 
     /*renderItems() {
@@ -198,6 +207,20 @@ class Places extends React.Component {
                     {this.renderItems()}
                 </div>
                 {/*</TransitionGroup>*/}
+                <Dialog
+                    id="details-modal"
+                    className={'details-modal'}
+                    aria-label="details-modal"
+                    visible={this.state.visibleDetails}
+                    focusOnMount={false}
+                    portal={true}
+                    onHide={this.closeDetails}
+                >
+                    <PlaceDetails
+                        item={this.state.selectedPlace}
+                        close={this.closeDetails}
+                    />
+                </Dialog>
             </div>
         );
     }
