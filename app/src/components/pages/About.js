@@ -6,7 +6,7 @@ class About extends React.PureComponent {
   constructor(props, context) {
     super(props, context);
 
-    this.page = 'pages.about.';
+    this.page = 'page.about.';
   }
 
   render() {

@@ -26,7 +26,7 @@ class Places extends React.Component {
             visibleDetails: false
         };
 
-        this.page = 'pages.home.';
+        this.page = 'page.home.';
         this.animationTiming = {
             enter: 0,
             exit: 0

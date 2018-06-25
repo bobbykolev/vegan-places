@@ -19,6 +19,12 @@
 .place-details {
     header {
         position: relative;
+
+    }
+
+    h2 {
+        margin: 12px;
+        color: $terinary;
     }
 }
 
@@ -36,6 +42,21 @@
     color: white;
     font-weight: bold;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.4);
+}
+
+.place-inner-section {
+    border-top: 1px solid rgba(black, 0.1);
+    padding: 8px 12px;
+}
+
+.time-line {
+    display: flex;
+
+    > span {
+        &:nth-child(1) {
+            min-width: 100px;
+        }
+    }
 }
 
 $colors: $ratingColor1, $ratingColor2, $ratingColor3, $ratingColor4;

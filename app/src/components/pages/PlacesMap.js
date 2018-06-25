@@ -6,7 +6,7 @@ class PlacesMap extends React.Component {
     constructor(props, context) {
         super(props, context);
 
-        this.page = 'pages.map.';
+        this.page = 'page.map.';
     }
 
     render() {

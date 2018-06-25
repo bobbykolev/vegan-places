@@ -6,9 +6,12 @@
       "map": "Map",
       "about": "About"
     },
-    "pages": {
+    "page": {
       "home": {
         "title": "Places"
+      },
+      "place": {
+        "restDay": "Rest Day"
       },
       "map": {
         "title": "Map"
@@ -23,7 +26,8 @@
       "defaultAll": "All",
       "townLabel": "Town",
       "vTypeLabel": "V Type",
-      "filterSearchLabel": "Search"
+      "filterSearchLabel": "Search",
+      "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     }
   },
   "bg":{
@@ -33,9 +37,12 @@
       "map": "Карта",
       "about": "За Нас"
     },
-    "pages": {
+    "page": {
       "home": {
         "title": "Заведения"
+      },
+      "place": {
+        "restDay": "Почивен Ден"
       },
       "map": {
         "title": "Карта"
@@ -50,7 +57,8 @@
       "defaultAll": "Всички",
       "townLabel": "Град",
       "vTypeLabel": "'В' Тип",
-      "filterSearchLabel": "Търсене"
+      "filterSearchLabel": "Търсене",
+      "days":["Понеделник", "Вторник", "Сряда", "Четвъртък", "Петък", "Събота", "Неделя"]
     }
   }
 }

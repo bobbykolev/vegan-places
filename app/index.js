@@ -12,6 +12,11 @@ import './styles/styles.scss';
 const store = configureStore();
 
 store.dispatch(getConfig()).then(() => {
+    let gm = document.createElement('script');
+    gm.setAttribute('type','text/javascript');
+    gm.setAttribute('src','https://maps.googleapis.com/maps/api/js?key=' + window.config.googlePlacesApiKey + '&libraries=places');
+    document.body.appendChild(gm);
+
     render(
         <AppContainer>
             <Root store={store} history={history}/>
@@ -30,7 +35,7 @@ store.dispatch(getConfig()).then(() => {
             );
         });
     }
-}).catch(e => {
+}).catch(() => {
     render(
         <div>
             There's a configuration error, please try again later.
